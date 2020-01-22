@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule rest/palindromes/?([0-9]+)? api/api.php?id=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
