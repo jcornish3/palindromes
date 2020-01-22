@@ -1,5 +1,9 @@
 # Palindrome web app
 
+## Author
+Jason Cornish
+jcornish3@gmail.com
+
 # initialization and start-up
 
 ## requirements
