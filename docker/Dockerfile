@@ -25,6 +25,4 @@ RUN buildDeps="libpq-dev libzip-dev libicu-dev libpng-dev libjpeg62-turbo-dev li
 RUN apt-get update && \
     apt-get install -y --no-install-recommends git zip
 
-RUN ./initDb.sh
-
 RUN curl --silent --show-error https://getcomposer.org/installer | php                
